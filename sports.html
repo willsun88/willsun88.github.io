@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link href="https://bootswatch.com/3/darkly/bootstrap.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='icon' href='favicon1.ico' type='image/x-icon'>
+        <link href="style.css" rel="stylesheet">
+		<title>Sports Achievements</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" style="margin-bottom:0px">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">William's Profile</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Profile Home</a></li>
+						<li><a href="aboutme.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About Me</a></li>
+                        <li><a href="science.html"><i class="fa fa-flask" aria-hidden="true"></i> Science</a></li>
+                        <li><a href="music.html"><i class="fa fa-music" aria-hidden="true"></i> Music</a></li>
+                        <li><a href="math.html"><i class="fa fa-calculator" aria-hidden="true"></i> Math</a></li>
+                        <li><a href="compsci.html"><i class="fa fa-code" aria-hidden="true"></i> Computer Science</a></li>
+                        <li class="active"><a href="sports.html"><i class="fa fa-futbol-o" aria-hidden="true"></i> Sports <span class="sr-only">(current)</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h2 class="text-center">Sports Achievements</h2><hr>
+        <ul class="nav nav-tabs" id="info">
+            <li class="active"><a href="#Counties" data-toggle="tab">Counties Qualification</a></li>
+            <li><a href="#Varsity" data-toggle="tab">Varsity Swimming Captain</a></li>
+            <li><a href="#TVSC" data-toggle="tab">TVSC</a></li>
+        </ul>
+		<div id="myModal" class="img-modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="cap"></div>
+		</div>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="Counties">
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/counties_2019_relay.jpg" alt="Me at Counties 2019" class="img-responsive">
+						<div class="caption">
+							<p>Me at Counties 2019</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<p>For varsity swimming, there are 3 levels of major competition to qualify for, in order of increasing difficulty: Leagues (everyone can participate), Counties, and States. While I didn't qualify for States, I was fast enough to qualify for Counties in both 10th and 11th grade (2018 and 2019), qualifying for 2 events (100 breaststroke, 200 IM) in 2018 and 3 events (100 breaststroke, 100 free, 200 IM) in 2019.</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/counties_2018_blocks.jpg" alt="Me at Counties 2018" class="img-responsive">
+						<div class="caption">
+							<p>Me at Counties 2018</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="tab-pane fade" id="Varsity">
+				<div class="col-xs-12 col-sm-9">
+					<p>Varsity Boys Swimming and Diving is a Varsity-level sport in our school that has always been fairly less known than the other Varsity sports, but just as competitive. I have been competing on the Varsity team since 10th grade, and for 12th grade, I was made one of the captains of the Varsity team, and I hope to increase the popularity of the sport as well as help others improve their swimming. </p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/varsity_certificate.jpg" alt="My certificate for joining Varsity Boys Swimming and Diving" class="img-responsive">
+						<div class="caption">
+							<p>My certificate for joining Varsity Boys Swimming and Diving</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="tab-pane fade" id="TVSC">
+				<div class="col-xs-12 col-sm-9">
+					<p>I have been committed to swimming for a long time, as shown in my participation in TVSC, or Three Village Swim Club. I have been part of TVSC since 4th grade (2011-2012), and I have been improving myself at swimming for the years since. TVSC is an out-of-school swim club that meets 6 times a week for 1 hour to 2 hours each time (depending on what group you are in) during the school year and the summer, and TVSC swimmers compete in a wide range of USA Swimming-sanctioned meets ranging from local to national. I have moved up from the lowest group in TVSC (Novice BB) up to the highest rank (Seniors), which I moved up to in 9th grade. I have competed in many of the meets available, and have even won a few medals for placing in meets in the past. But what is important to me is that I have been committed to this team and this sport for many years, and I plan to continue to do so in the years to come.</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/swimming.jpg" alt="Me swimming at a swim meet for TVSC" class="img-responsive">
+						<div class="caption">
+							<p>Me swimming at a swim meet for TVSC</p>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://bootswatch.com/3/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script>
+			var modal = document.getElementById("myModal");
+			var imgs = document.getElementsByTagName("img");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("cap");
+			for(var i=0; i < imgs.length; i++){
+				imgs[i].onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+			}
+			
+			var span = document.getElementsByClassName("close")[0];
+			span.onclick = function() { 
+			  modal.style.display = "none";
+			}
+		</script>
+    </body>
+</html>

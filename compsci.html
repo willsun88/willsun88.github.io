@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <link href="https://bootswatch.com/3/darkly/bootstrap.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='icon' href='favicon1.ico' type='image/x-icon'>
+        <link href="style.css" rel="stylesheet">
+		<title>Computer Science Achievements</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" style="margin-bottom:0px">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">William's Profile</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Profile Home</a></li>
+						<li><a href="aboutme.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About Me</a></li>
+                        <li><a href="science.html"><i class="fa fa-flask" aria-hidden="true"></i> Science</a></li>
+                        <li><a href="music.html"><i class="fa fa-music" aria-hidden="true"></i> Music</a></li>
+                        <li><a href="math.html"><i class="fa fa-calculator" aria-hidden="true"></i> Math</a></li>
+                        <li class="active"><a href="compsci.html"><i class="fa fa-code" aria-hidden="true"></i> Computer Science <span class="sr-only">(current)</span></a></li>
+                        <li><a href="sports.html"><i class="fa fa-futbol-o" aria-hidden="true"></i> Sports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h2 class="text-center">Computer Science Achievements</h2><hr>
+        <ul class="nav nav-tabs" id="info">
+            <li class="active"><a href="#Research" data-toggle="tab">Science Research</a></li>
+            <li><a href="#KidOYO" data-toggle="tab">KidOYO</a></li>
+			<li><a href="#StJoseph" data-toggle="tab">St. Joseph's HS Programming Competition</a></li>
+			<li><a href="#CompSciClub" data-toggle="tab">Computer Science Club</a></li>
+			<li><a href="#MIT" data-toggle="tab">MIT Science Olympiad Invitational</a></li>
+            <li><a href="#Other" data-toggle="tab">My Skills</a></li>
+        </ul>
+		<div id="myModal" class="img-modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="cap"></div>
+		</div>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="Research">
+				<div class="col-xs-12 col-sm-12">
+                    <p>I have participated in Science Research each summer since the summer after 9th grade, with different topics each summer. All my projects involved some amount of code, <a href="portfolios.html"><b style="color: #00FFFF;">which can be found in my programmming portfolio.</b></a></p>
+                </div>
+				<div class="col-xs-12 col-sm-6">
+                    <p>In the summer of 9th grade, I qualified for the Computer Science and Informatics Summer Research Experience (CSIRE) Program at Stony Brook University in its pilot year. Through that program, I worked under Dr. Daifeng Wang on a project about Lung Adenocarcinoma gene expression across different stages. In that project, I wrote code to grab data from TCGA-LUAD, which is the Cancer Genome Atlas's data on lung adenocarcinoma, and correlate gene expression with stage of cancer and output the genes in a list sorted by highest to lowest correlation score.</p>
+				</div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="thumbnail text-center">
+						<img src="images/CSIRE_group.jpg" alt="Me with the other CSIRE 2018 students and faculty" class="img-responsive">
+						<div class="caption">
+							<p>Me with the other CSIRE 2018 students and faculty</p>
+						</div>
+					</div>
+                </div>
+				<div class="col-xs-12 col-sm-12">
+                    <p><br>In the summer of 10th grade, I contacted Dr. Jingfang Ju, who allowed me to do research at his lab. This research pertained to microRNA, specifically miR-194-5p, and what targets it had in pancreatic cancer patients specifically. miR-194-5p appearance had been associated with other cancers, but its role in pancreatic cancer had yet to be researched thoroughly. I wrote a program to grab data from the Cancer Genome Atlas on pancreatic adenocarcinoma (TCGA-PAAD) and correlate miR-194-5p expression with gene expression (specifically, a list of genes gathered from target prediction software) to find potential targets.</p>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+                    <p><br>In the summer of 11th grade, I contacted Dr. Shaoyu Ge, who allowed me to do research at his lab. This research pertained to lipid droplets and how they changed in the aging brain. Images were taken from mice brains of different ages, all stained with Perilipin 1, which targets lipid droplets and thus allows us to see them. I then wrote code to find the lipid droplet location and calculate lipid droplet number and distribution (based on defined metrics) across ages.</p>
+				</div>
+            </div>
+            <div class="tab-pane fade" id="KidOYO">
+			<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail text-center">
+						<img src="images/kidoyo_java.jpg" alt="Me with the AP Java founding class at KidOYO" class="img-responsive">
+						<div class="caption">
+							<p>Me with the AP Java founding class at KidOYO</p>
+						</div>
+					</div>
+                </div>
+				<div class="col-xs-12 col-sm-8">
+                    <p>KidOYO is an out-of-school computer science/engineering education opportunity that meets every Sunday in the school year. It runs from 10:00am to 3:00pm, with a class from 10:00am - 12:00pm and a class from 1:00pm - 3:00pm and lunch at 12:00pm - 1:00pm. Each class teaches some aspect of computer science or engineering, such as "Basics to Python", "Intro to Arduino", or "Making games with JavaFX". These classes are extremely helpful in learning any level of computer science or engineering that a middle or high schooler would want to know.</p>
+                </div>
+				<div class="col-xs-12 col-sm-9">
+					<p>I was part of the founding class of KidOYO, the class that entered KidOYO in its first year of in-person lessons (it had previously had online classes), which was the 2015-2016 school year. I stayed in KidOYO for 4 years, when in 11th grade I ran out of time on Sundays to continue. During that time, I took classes ranging from learning to make professional websites to data analysis with Selenium. I additionally took the AP Computer Science A class in its pilot year (2016-2017), and on the AP test I got a 5, leading KidOYO to give me a lifetime scholarship to KidOYO and a promotion to Student Mentor for my contributions.</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/kidoyo_web.jpg" alt="Me sitting in KidOYO's web development class" class="img-responsive">
+						<div class="caption">
+							<p>Me sitting in KidOYO's web development class</p>
+						</div>
+					</div>
+                </div>
+            </div>
+			<div class="tab-pane fade" id="StJoseph">
+				<div class="col-xs-12 col-sm-12">
+					<p>St. Joseph's High School Programming Competition is a high school programming competition run at St. Joseph's Community College, where a team of 3 high school students try to solve 7 difficult computer science problems using Java in 3 hours. It hosts 40+ teams from all over Long Island and NYC.</p>
+					<p>I have placed in both years of competing in the competition, placing 2nd in 10th grade (2018) with a senior and another persion in my grade, and 3rd in 11th grade (2019), with the same team except the senior was swapped for a 3rd person in my grade.</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/st_joe_2018.jpg" alt="My 2nd place plaque and certificate from 2018" class="img-responsive">
+						<div class="caption">
+							<p>My 2nd place plaque and certificate from 2018</p>
+						</div>
+					</div>
+                </div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/st_joe_2019.jpg" alt="My 3rd place plaque and certificate from 2019" class="img-responsive">
+						<div class="caption">
+							<p>My 3rd place plaque and certificate from 2019</p>
+						</div>
+					</div>
+                </div>
+            </div>
+			<div class="tab-pane fade" id="CompSciClub">
+				<div class="col-xs-12 col-sm-12">
+					<p>Our school's Computer Science Club is a club to teach people about the potential applicability and enjoyment of learning computer science. I am the captain of the computer science club in 12th grade, and I am reforming the Computer Science club to increase its popularity and make it more organized and enjoyable. I additionally collaborated with the E-sports club to have participants play a Super Smash Bros Melee AI (not the in-game AI) for a chance at money.</p>
+				</div>
+				<div class="col-xs-12 col-sm-2">
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<div class="thumbnail text-center">
+						<img src="images/comp_sci_club.jpg" alt="The group picture for Comp Sci Club in 11th grade (2018-19)" class="img-responsive">
+						<div class="caption">
+							<p>The group picture for Comp Sci Club in 11th grade (2018-19)</p>
+						</div>
+					</div>
+				</div>
+            </div>
+			<div class="tab-pane fade" id="MIT">
+				<div class="col-xs-12 col-sm-9">
+					<p>The MIT Science Olympiad Invitational is a highly competitive Science Olympiad competition, with some of the nation's top teams coming to compete in some of the most well-written and difficult events. What the Function was one such event. It was a trial event only run at this tournament, and it tested 3-person students on their knowledge of interpreting Python code and computing runtimes of functions. However, as it was a trial event, it wasn't counted as part of the score, and so, being the only volunteer from Ward Melville to take the test, <b>I soloed this 3-person event.</b></p>
+					<p>Despite soloing the event, I managed to place 5th overall. This is considering that almost all of the 50+ teams sent a team to take the event. It really demonstrated to me how much I knew about runtimes and how quickly and well I could interpret Python code, and my 5th place medal at MIT is to this day still one of my proudest SciO medals.</p>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<div class="thumbnail text-center">
+						<img src="images/what_the_function.jpg" alt="My What the Function 5th Place Medal" class="img-responsive">
+						<div class="caption">
+							<p>My What the Function 5th Place Medal</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="tab-pane fade" id="Other">
+				<div class="col-xs-12">
+					<p>Current Knowledge:</p>
+					<ul>
+						<li>Basic Python, including functions, OOP, etc.</li>
+						<li>Data Analysis with Python, including using NumPy, SciPy, Pandas, and optimizing speeds of large amounts of calculation using lists</li>
+						<li>Python Web Grabbing with Selenium</li>
+						<li>PyGame, and how to make basic games with graphics</li>
+						<li>Basic Java, including OOP, JavaFX, and methods (enough to compete at St. Joseph's)</li>
+						<li>Basic Web Design with Bootstrap (I made this website all by myself)</li>
+						<li>Basic Javascript and JQuery, and how to manipulate web elements</li>
+					</ul>
+					<p>Plan to Study/Currently Studying:</p>
+					<ul>
+						<li>Machine Learning with Python (via Coursera)</li>
+						<li>An intro to C++, and using pointers</li>
+						<li>How to use Raspberry Pi, and how to communicate with other devices using a Raspberry Pi</li>
+					</ul>
+				</div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://bootswatch.com/3/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script>
+			var modal = document.getElementById("myModal");
+			var imgs = document.getElementsByTagName("img");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("cap");
+			for(var i=0; i < imgs.length; i++){
+				imgs[i].onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+			}
+			
+			var span = document.getElementsByClassName("close")[0];
+			span.onclick = function() { 
+			  modal.style.display = "none";
+			}
+		</script>
+    </body>
+</html>
